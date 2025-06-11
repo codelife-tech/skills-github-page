@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+</head>
+<body>
+    <header class="header">
+            <h1 class="logo">aqua<span>life-</span>tech</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#portfolio" class="active">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul> 
+            </nav>
+
+            <a href="#contact" class="contact">Contact Me</a>
+    </header>
+
+    <section class="home" id="portfolio">
+        <div class="home-content">
+            <h3>Hello,</h3>
+
+            <h1 class="intro">I'm <span>Acquah<br></span>a frontend Developer</h1>
+
+            <p class="intro"> Welcome to my portfolio! I am a passionate frontend developer dedicated to crafting engaging, responsive, and user-friendly web experiences. With a strong foundation in HTML, CSS, and JavaScript, I enjoy turning ideas into reality through clean and efficient code. Explore my projects and feel free to reach out for collaboration or opportunities.</p>
+
+            <div class="btn-box">
+                <a href="#contact" class="btn-1">Hire Me</a>
+                <a href="#projects" class="btn-2">Experience</a>
+            </div>
+        </div>
+        <div #class="img-box">
+            <img #src="acquah.jpg" #alt="Acquah's Image">
+        </div>    
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="acquah.jpg" alt="Acquah's Image" class="profile-image">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend <span>Developer</span></h3>
+            <p>Hi, I'm Acquah a creative and detail-oriented frontend developer with a passion for building beautiful, accessible, and high-performing web applications. I specialize in turning ideas into interactive digital experiences using HTML, CSS, JavaScript, and modern frameworks.</p>
+            <a href="#projects" class="btn-2">Experience</a>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="projects-content">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <div class="project-list">
+            <div class="project-item">
+                <img src="portfolio.png" alt="Portfolio Website Screenshot">
+                <h3>Responsive Portfolio Website</h3>
+                <p>Designed and developed a personal portfolio website using HTML, CSS, and JavaScript. The site is fully responsive and showcases my skills, projects, and contact information.</p>
+            </div>
+            <div class="project-item">
+                <img src="weather.png" alt="Weather App Screenshot">
+                <h3>Weather App</h3>
+                <p>Built a weather application that fetches real-time weather data using a public API. Users can search for any city and view current weather conditions and forecasts.</p>
+            </div>
+            <div class="project-item">
+                <img src="task.jpg" alt="Task Manager Screenshot">
+                <h3>Task Manager</h3>
+                <p>Created a task management tool with features like adding, editing, and deleting tasks. Implemented local storage to save user data and ensure persistence across sessions.</p>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="Contact-form" id="contact">
+    <form action="https://formsubmit.co/7a418ca513a19455c604bc48321be3d7" method="POST" class="contact-form1">
+        <div class="contact-heading">
+            <h1 class="contact-me">Contact <span>Me</span></h1>
+        </div>
+        <div class="input-box">
+            <input type="text" name="name" placeholder="Enter Full Name" required>
+            <img id="img1" src="user-solid.svg">
+        </div>
+        <div class="input-box">
+            <input type="email" name="email" placeholder="Enter Email Address" required>
+            <img id="img2" src="envelope-solid.svg">
+        </div>
+        <div class="input-box">
+            <input id="password" type="password" placeholder="password" required>
+           <img id="img" src="eye-solid.svg">
+        </div>
+        <textarea name="message" cols="30" rows="5" placeholder="Your Message" required></textarea>
+        <input type="hidden" name="_captcha" value="false">
+        <input type="submit" value="Send Message" class="btn-1">
+    </form>
+</section>
+
+    <footer>
+        <p>&copy;2025 aqua<span>Life-</span>tech. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
